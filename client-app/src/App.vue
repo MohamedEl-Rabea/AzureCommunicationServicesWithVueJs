@@ -1,18 +1,14 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <CommunicationService />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import CommunicationService from './components/CommunicationService.vue'
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+  components: { CommunicationService }
 }
 </script>
 
